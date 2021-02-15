@@ -11,4 +11,6 @@ export class CreateUserInput {
   @Field()
   password: string;
 
+  @Field()
+  provider: boolean;
 }
